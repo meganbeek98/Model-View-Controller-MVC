@@ -1,7 +1,7 @@
 {
   "name": "model-view-controller-mvc",
   "version": "1.0.0",
-  "description": "---------------------------------------------------\r ## Devloped By: Megan Beekman (2022), [GitHub profile --->](https://github.com/meganbeek98)\r     developed using: (fill in info here)",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
