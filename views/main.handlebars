@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" style="height:100%">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="./css/tailwind.css">
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.4/dist/tailwind.min.css"> 
+  <title>Tech Blog</title>
+  
+</head>
+
+<body style="background: linear-gradient(#53def9, #40f768); background-attachment: fixed; ">
+
+
+<ul class="flex">
+  <li class="flex-1 mt-4 mb-2 ml-4 mr-4">
+    <a class="font-bold text-2xl text-center block border rounded py-2 px-4 bg-black hover:bg-blue-400 text-white" href="/">Tech Blog</a>
+  </li>
+   {{#if loggedIn}}
+   <li class="flex-1 mt-4 mb-2 ml-4 mr-4">
+    <a class="font-bold text-xl text-center block border rounded py-2 px-4 bg-black hover:bg-blue-400 text-white" href="/dashboard">Dashboard</a>
+  </li>
+  <li class="flex-1 mt-4 mb-2 ml-4 mr-4">
+    <a class="font-bold text-xl text-center block border rounded py-2 px-4 bg-black hover:bg-blue-400 text-white" id="logout">Logout</a>
+  </li>
+</ul>
+  {{else}}
+<li class="flex-1 mt-4 mb-2 ml-4 mr-4">
+    <a class="font-bold text-xl text-center block border rounded py-2 px-4 bg-black hover:bg-blue-400 text-white" href="/login">Login</a>
+  </li>
+  </ul>
+{{/if}}
+</header>
+    <main>
+      {{{ body }}}
+    </main>
+    <footer class="text-center">
+     Thank you for coming to chit chat!
+      <br>
+     
+    </footer>
+  
+  {{#if loggedIn}}
+  <script src="/javascript/logout.js"></script>
+  
+  {{/if}}
+
+</body>
+
+</html> 
