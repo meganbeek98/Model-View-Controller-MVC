@@ -12,3 +12,16 @@ const sequelize = process.env.JAWSDB_URL
     });
 
 module.exports = sequelize;
+
+const mongoose = require('mongoose');
+
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/googlebooks',
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+    useFindAndModify: false,
+  },
+);
+
+module.exports = mongoose.connection;
