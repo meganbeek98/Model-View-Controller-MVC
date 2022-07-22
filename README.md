@@ -2,7 +2,7 @@
 ### OSU Bootcamp Challenge 14
 ---------------------------------------------------
 ## Devloped By: Megan Beekman (2022), [GitHub profile --->](https://github.com/meganbeek98)
-    developed using: (fill in info here)
+    developed using: MVC, MongoDB, JavaScript, .handlebars
 
 ---------------------------------------------------
 
