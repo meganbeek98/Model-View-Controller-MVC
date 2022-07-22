@@ -2,7 +2,7 @@
 ### OSU Bootcamp Challenge 14
 ---------------------------------------------------
 ## Devloped By: Megan Beekman (2022), [GitHub profile --->](https://github.com/meganbeek98)
-    developed using: MVC, MongoDB, JavaScript, .handlebars
+    developed using: JavaScript, .handlebars
 
 ---------------------------------------------------
 
@@ -48,11 +48,6 @@
     I WANT a CMS-style blog site
     SO THAT I can publish articles, blog posts, and my thoughts and opinions
 
-## Screenshots: <br>
-
-<img>insert image path here</img>
-
-<img>insert image path here</img>
 
 ---------------------------------------------------
 
@@ -60,7 +55,8 @@
 
 [GitHub Repository](https://github.com/meganbeek98/Model-View-Controller-MVC.git)
 
-[Heroku Deployment]()
+[Heroku Deployment](https://tech-blog-meganbeek98.herokuapp.com/)
+    <br>(still needs work)
 
 ----------------------------------------------------
 
