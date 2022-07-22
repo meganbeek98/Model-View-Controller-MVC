@@ -55,8 +55,9 @@
 
 [GitHub Repository](https://github.com/meganbeek98/Model-View-Controller-MVC.git)
 
-[Heroku Deployment](https://tech-blog-meganbeek98.herokuapp.com/)
-    <br>(still needs work)
+[Heroku Deployment](https://tech-blog-meganbeek98.herokuapp.com/) - needs work
+
+[GH Pages](https://meganbeek98.github.io/Model-View-Controller-MVC/) - needs work
 
 ----------------------------------------------------
 
